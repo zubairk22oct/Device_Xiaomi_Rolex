@@ -25,4 +25,7 @@
         <integer name="config_lockScreenDisplayTimeout">7000</integer>
 
 
+    <!-- Max visible notification icons -->
+    <integer name="config_maxVisibleNotificationIcons">7</integer>
+    <integer name="config_maxVisibleNotificationIconsWhenDark">8</integer>
 </resources>
