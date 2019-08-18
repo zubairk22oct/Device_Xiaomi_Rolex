@@ -22,7 +22,11 @@ def FullOTA_InstallEnd(info):
   ImportBkpBootloaderFirmware(info)
 
 def ImportMainBootloaderFirmware(info):
+<<<<<<< HEAD
   info.script.AppendExtra('ui_print("Flashing MIUI GLOBAL STABLE V9.2.6.0 Firmware.");')
+=======
+  info.script.AppendExtra('ui_print("Flashing miui_HM4AGlobal_V10.2.3.0.NCCMIXM_20190605.0000.00_7.1 Firmware.");')
+>>>>>>> 03ba1444... rolex: Update firmware from miui global stable V10.2.3.0
   info.script.AppendExtra('package_extract_file("install/firmware-update/cmnlib64.mbn", "/dev/block/bootdevice/by-name/cmnlib64");')
   info.script.AppendExtra('package_extract_file("install/firmware-update/cmnlib.mbn", "/dev/block/bootdevice/by-name/cmnlib");')
   info.script.AppendExtra('package_extract_file("install/firmware-update/rpm.mbn", "/dev/block/bootdevice/by-name/rpm");')
@@ -36,7 +40,11 @@ def ImportMainBootloaderFirmware(info):
   info.script.AppendExtra('package_extract_file("install/firmware-update/adspso.bin", "/dev/block/bootdevice/by-name/dsp");')
 
 def ImportBkpBootloaderFirmware(info):
+<<<<<<< HEAD
   info.script.AppendExtra('ui_print("Flashing Backup Firmware MIUI GLOBAL STABLE V9.2.6.0.");')
+=======
+  info.script.AppendExtra('ui_print("Flashing Backup miui_HM4AGlobal_V10.2.3.0.NCCMIXM_20190605.0000.00_7.1 Firmware.");')
+>>>>>>> 03ba1444... rolex: Update firmware from miui global stable V10.2.3.0
   info.script.AppendExtra('package_extract_file("install/firmware-update/cmnlib64.mbn", "/dev/block/bootdevice/by-name/cmnlib64bak");')
   info.script.AppendExtra('package_extract_file("install/firmware-update/cmnlib.mbn", "/dev/block/bootdevice/by-name/cmnlibbak");')
   info.script.AppendExtra('package_extract_file("install/firmware-update/rpm.mbn", "/dev/block/bootdevice/by-name/rpmbak");')
