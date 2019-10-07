@@ -319,6 +319,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     Recorder
 
+# RCS
+PRODUCT_PACKAGES += \
+    com.android.ims.rcsmanager \
+    PresencePolling \
+    RcsService
+
 # RIL
 PRODUCT_PACKAGES += \
     librmnetctl \
