@@ -83,6 +83,15 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.display.cabl=2 \
     ro.sf.lcd_density=295 \
     vendor.display.enable_default_color_mode=1
+    debug.sf.latch_unsignaled=0 \
+    debug.sdm.support_writeback=0 \
+    ro.opengles.version=196610 \
+    ro.vendor.display.sensortype=2 \
+    vendor.gralloc.enable_fb_ubwc=1 \
+    vendor.display.disable_skip_validate=1 \
+    vendor.display.enable_default_color_mode=0 \
+    sdm.debug.disable_skip_validate=1 \
+    persist.hwc.enable_vds=1
 
 # Fm
 PRODUCT_PROPERTY_OVERRIDES += \
