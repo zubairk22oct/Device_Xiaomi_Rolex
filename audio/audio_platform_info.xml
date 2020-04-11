@@ -51,8 +51,6 @@
     <config_params>
         <param key="spkr_1_tz_name" value="wsa881x.0f"/>
         <param key="spkr_2_tz_name" value=""/>
-        <!-- followed by perf lock options -->
-        <param key="perf_lock_opts" value="4, 0x101, 0x704, 0x20F, 0x1E01"/>
     </config_params>
     <acdb_ids>
         <device name="SND_DEVICE_OUT_HANDSET" acdb_id="7"/>
@@ -161,8 +159,13 @@
         <device name="SND_DEVICE_IN_UNPROCESSED_THREE_MIC" acdb_id="145"/>
         <device name="SND_DEVICE_IN_UNPROCESSED_QUAD_MIC" acdb_id="146"/>
         <device name="SND_DEVICE_IN_UNPROCESSED_HEADSET_MIC" acdb_id="147"/>
+        <device name="SND_DEVICE_OUT_SPEAKER_PROTECTED" acdb_id="136"/>
+        <device name="SND_DEVICE_OUT_VOICE_SPEAKER_PROTECTED" acdb_id="136"/>
+        <device name="SND_DEVICE_OUT_SPEAKER_PROTECTED_VBAT" acdb_id="136"/>
+        <device name="SND_DEVICE_OUT_VOICE_SPEAKER_PROTECTED_VBAT" acdb_id="136"/>
+        <device name="SND_DEVICE_IN_CAPTURE_VI_FEEDBACK" acdb_id="137"/>
     </acdb_ids>
-    
+
     <backend_names>
         <device name="SND_DEVICE_OUT_HEADPHONES" interface="PRI_MI2S_RX"/>
         <device name="SND_DEVICE_OUT_BT_SCO_WB" interface="INT_BT_SCO_RX"/>
@@ -635,4 +638,3 @@
         </input_snd_device>
     </snd_devices>
 </audio_platform_info>
-
