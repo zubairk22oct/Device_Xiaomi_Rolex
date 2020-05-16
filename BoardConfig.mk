@@ -190,6 +190,9 @@ VENDOR_SECURITY_PATCH := 2020-03-05
 include device/qcom/sepolicy-legacy-um/sepolicy.mk
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
+# Timeservice
+BOARD_USES_QC_TIME_SERVICES := true
+
 # Treble
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
 PRODUCT_FULL_TREBLE_OVERRIDE := true
