@@ -2566,6 +2566,7 @@ case "$target" in
                 echo 400 > $memlat/mem_latency/ratio_ceil
             done
             echo "cpufreq" > /sys/class/devfreq/soc:qcom,mincpubw/governor
+            echo lz4 > /sys/block/zram0/comp_algorithm
 
             # Start cdsprpcd only for sdm660 and disable for sdm630
             start vendor.cdsprpcd
