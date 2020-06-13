@@ -30,7 +30,9 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := rolex
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := Redmi 4A
+<<<<<<< HEAD:colt_rolex.mk
 PRODUCT_NAME := colt_rolex
+TARGET_BOOT_ANIMATION_RES := 720
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
