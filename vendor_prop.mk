@@ -159,3 +159,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Wifi
 PRODUCT_PROPERTY_OVERRIDES += \
     wifi.interface=wlan0
+
+   persist.sys.fflag.override.settings_network_and_internet_v2=true
