@@ -102,6 +102,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.egl.hw=0 \
     debug.enable.sglscale=1 \
     debug.mdpcomp.logs=0 \
+    debug.performance.tuning=1 \
     debug.sdm.support_writeback=0 \
     debug.sf.hw=0 \
     debug.sf.latch_unsignaled=1 \
