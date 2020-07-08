@@ -142,6 +142,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.extension_library=libqti-perfd-client.so \
 
+# Power Saver
+PRODUCT_PROPERTY_OVERRIDES += \
+    power.saving.mode=1 \
+    pm.sleep_mode=1
+
 # Radio
 PRODUCT_PROPERTY_OVERRIDES += \
     rild.libpath=/vendor/lib64/libril-qc-qmi-1.so \
@@ -152,7 +157,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.radio.custom_ecc=1 \
     persist.vendor.radio.rat_on=combine \
     persist.vendor.radio.sib16_support=1 \
-    persist.vendor.data.mode=concurrent
+    persist.vendor.data.mode=concurrent \
+    ro.vold.umsdirtyratio=20 \
+    ro.ril.disable.power.collapse=0
 
 # Time Services
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -164,4 +171,16 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Wifi
 PRODUCT_PROPERTY_OVERRIDES += \
-    wifi.interface=wlan0
+    wifi.interface=wlan0 \
+    wifi.supplicant_scan_interval=500
+
+# Memory management tweaks
+ro.config.fha_enable=true
+ro.sys.fw.bg_apps_limit=32
+ro.config.dha_cached_max=16
+ro.config.dha_empty_max=42
+ro.config.dha_empty_init=32
+ro.config.dha_lmk_scale=0.545
+ro.config.dha_th_rate=2.3
+ro.config.sdha_apps_bg_max=64
+ro.config.sdha_apps_bg_min=8
