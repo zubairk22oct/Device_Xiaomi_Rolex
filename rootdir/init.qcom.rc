@@ -410,3 +410,8 @@ service vendor.contexthub-hal-1-0 /vendor/bin/hw/android.hardware.contexthub@1.0
 
 on property:dev.bootcomplete=1
     swapon_all /vendor/etc/fstab.qcom
+
+on property:sys.boot_completed=1
+    # Tunables
+    write /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor "interactive"
+    write /sys/devices/system/cpu/cpufreq/interactive/use_sched_load 0
