@@ -162,6 +162,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vold.umsdirtyratio=20 \
     ro.ril.disable.power.collapse=0
 
+PRODUCT_PROPERTY_OVERRIDES += \
+     persist.vendor.data.iwlan.enable=true \
+     ro.telephony.iwlan_operation_mode=legacy
+
 # Time Services
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.delta_time.enable=true \
