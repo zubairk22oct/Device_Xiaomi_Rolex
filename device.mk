@@ -444,3 +444,7 @@ PRODUCT_COPY_FILES += \
 
 # Inherit common proprietary files
 $(call inherit-product-if-exists, vendor/xiaomi/rolex/rolex-vendor.mk)
+
+# Prebuilt Packages
+PRODUCT_PACKAGES += \
+    Via
