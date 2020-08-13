@@ -36,4 +36,4 @@
 /sys/devices/soc/78b6000\.i2c/i2c-2/2-[0-9a-f]+/leds(/.*)?    u:object_r:sysfs_leds:s0
 
 # FPS Info
-/sys/devices/virtual/graphics/fb0/measured_fps
+/sys/devices/virtual/graphics/fb0/measured_fps                u:object_r:sysfs_fps:s0
