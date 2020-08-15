@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <device name="Android">
-  <item name="screen.on">63</item>
-  <item name="screen.full">261</item>
+    <item name="screen.on">63</item>
+    <item name="screen.full">261</item>
     <item name="wifi.on">0.1</item>
     <item name="wifi.active">0.1</item>
     <item name="wifi.scan">0.1</item>
@@ -25,11 +25,8 @@
       <value>307</value>
       <value>353</value>
   </array>
-  <!-- Current when CPU is awake -->
-  <item name="cpu.awake">1.6</item>
-  <!-- Current when CPU is idle -->
-  <item name="cpu.idle">1.6</item>
-  <!-- This is the battery capacity in mAh (measured at nominal voltage) -->
-  <item name="battery.capacity">3120</item>
+    <item name="cpu.suspend">0.1</item>
+    <item name="cpu.active">1.2</item>
+    <item name="cpu.idle">1.6</item>
+    <item name="battery.capacity">3030</item>
 </device>
-
