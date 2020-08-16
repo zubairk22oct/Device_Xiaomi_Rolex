@@ -14,8 +14,8 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/du_rolex.mk
+    $(LOCAL_DIR)/havoc_rolex.mk
 
 COMMON_LUNCH_CHOICES := \
-    du_rolex-user \
-    du_rolex-userdebug
+    havoc_rolex-user \
+    havoc_rolex-userdebug
