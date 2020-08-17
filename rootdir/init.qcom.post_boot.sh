@@ -27,6 +27,11 @@
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
+MemTotalStr=`cat /proc/meminfo | grep MemTotal`
+MemTotal=${MemTotalStr:16:8}
+RAM=`expr $MemTotal '*' 1024`
+setprop ro.vendor.qti.sys.fw.trim_enable_memory $RAM
+
 function 8953_sched_dcvs_eas()
 {
     #governor settings
