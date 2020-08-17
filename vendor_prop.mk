@@ -196,3 +196,16 @@ ro.config.dha_lmk_scale=0.545
 ro.config.dha_th_rate=2.3
 ro.config.sdha_apps_bg_max=64
 ro.config.sdha_apps_bg_min=8
+
+# Improve touch response in gaming
+PRODUCT_PROPERTY_OVERRIDES += \
+vendor.perf.gestureflingboost.enable=true
+ro.vendor.qti.sys.fw.bg_apps_limit=32
+ro.vendor.qti.sys.fw.use_trim_settings=true
+ro.vendor.qti.sys.fw.empty_app_percent=50
+ro.vendor.qti.sys.fw.trim_empty_percent=100
+ro.vendor.qti.sys.fw.trim_cache_percent=100
+
+# OPEN GL ES layers
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.hardware.egl=adreno
