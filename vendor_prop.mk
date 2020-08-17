@@ -211,5 +211,6 @@ ro.vendor.qti.sys.fw.trim_cache_percent=100
 PRODUCT_PROPERTY_OVERRIDES += \
 audio.safemedia.bypass=true
 
-
-
+# override lockscreen rotation
+PRODUCT_PROPERTY_OVERRIDIES += \
+lockscreen.rot_override=true
