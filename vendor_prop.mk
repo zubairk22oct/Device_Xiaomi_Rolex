@@ -214,3 +214,7 @@ audio.safemedia.bypass=true
 # override lockscreen rotation
 PRODUCT_PROPERTY_OVERRIDIES += \
 lockscreen.rot_override=true
+
+# enable eis camera
+PRODUCT_PROPERTY_OVERRIDES += \
+persist.camera.eis.enable=1
