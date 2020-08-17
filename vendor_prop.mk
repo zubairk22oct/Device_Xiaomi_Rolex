@@ -218,3 +218,7 @@ lockscreen.rot_override=true
 # enable eis camera
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.camera.eis.enable=1
+
+# OPEN GL ES layers
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.hardware.egl=adreno
