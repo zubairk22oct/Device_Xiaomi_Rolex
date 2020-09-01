@@ -14,8 +14,8 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_rolex.mk
+    $(LOCAL_DIR)/bootleg_rolex.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_rolex-user \
-    aosp_rolex-userdebug
+    bootleg_rolex-user \
+    bootleg_rolex-userdebug

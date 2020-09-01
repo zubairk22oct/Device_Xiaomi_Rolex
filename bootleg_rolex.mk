@@ -20,8 +20,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 
-# Inherit some common aosp stuff
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk) 
+# Inherit some common Bootleggers stuff
+$(call inherit-product, vendor/bootleggers/config/common_full_phone.mk) 
 
 # Inherit from rolex device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -30,7 +30,7 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := rolex
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := Redmi 4A
-PRODUCT_NAME := aosp_rolex
+PRODUCT_NAME := bootleg_rolex
 TARGET_BOOT_ANIMATION_RES := 720
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
