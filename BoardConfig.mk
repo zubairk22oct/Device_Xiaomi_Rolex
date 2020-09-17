@@ -136,11 +136,6 @@ HWUI_COMPILE_FOR_PERF := true
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
 
-# Shims
-TARGET_LD_SHIM_LIBS := \
-    /vendor/lib64/liblbs_core.so|libloc_shim.so \
-    /vendor/lib64/libloc_api_v02.so|libloc_shim.so
-
 # Tap2Wake
 TARGET_TAP_TO_WAKE_NODE := "/proc/gesture/onoff"
 
