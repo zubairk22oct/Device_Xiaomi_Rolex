@@ -14,8 +14,8 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_rolex.mk
+    $(LOCAL_DIR)/colt_rolex.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_rolex-user \
-    lineage_rolex-userdebug
+    colt_rolex-user \
+    colt_rolex-userdebug
