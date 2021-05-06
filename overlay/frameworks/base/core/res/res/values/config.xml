@@ -588,6 +588,12 @@
          config to 7. -->
     <integer name="config_deviceHardwareWakeKeys">64</integer>
 
+    <!-- HW keys prefs-->
+    <bool name="config_hwKeysPref">true</bool>
+
+    <!-- Whether a software navigation bar should be shown. NOTE: in the future this may be autodetected from the Configuration. -->
+    <bool name="config_showNavigationBar">false</bool>
+
     <!-- Whether device needs to wait for Qualcomm MPCTL service to start
          before setting power profiles on boot. -->
     <bool name="config_waitForMpctlOnBoot">true</bool>
