@@ -275,3 +275,9 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit the proprietary files
 -include vendor/xiaomi/rolex/BoardConfigVendor.mk
+
+# PixelPlusUI
+SKIP_ABI_CHECKS := true
+SKIP_API_CHECKS := true
+BUILD_BROKEN_DUP_RULES := true
+BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true

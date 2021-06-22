@@ -20,8 +20,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 
-# Inherit some common Wave-OS stuff
-$(call inherit-product, vendor/wave/configs/common.mk)
+# Inherit some common PixelPlusUI stuff
+$(call inherit-product, vendor/aosp/configs/common_full_phone.mk)
+
+# PixelPlusUI Official
+CUSTOM_BUILD_TYPE := OFFICIAL
+
+# Face Unlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
 
 TARGET_BOOT_ANIMATION_RES := 720
 
@@ -32,7 +38,7 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 4A
 PRODUCT_DEVICE := rolex
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := wave_rolex
+PRODUCT_NAME := aosp_rolex
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 

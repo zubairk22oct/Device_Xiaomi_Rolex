@@ -119,3 +119,11 @@ persist.timed.enable=true
 
 # Zygote preforking
 persist.device_config.runtime_native.usap_pool_enabled=true
+
+# PixelPlusUI Official
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.ppui.device_name=Redmi4a/Redmi5a
+ro.ppui.version=3.6
+ro.ppui.version_code=Unicorn
+ro.ppui.is_official=true
+ro.ppui.maintainer_name=ZubairKhan
