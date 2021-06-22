@@ -25,14 +25,6 @@ $(call inherit-product, vendor/wave/configs/common.mk)
 
 TARGET_BOOT_ANIMATION_RES := 720
 
-TARGET_OPT_OUT_GCAM_GO := true
-
-# Modify Codename in ZIP
-WAVE_BUILD := rolex-riva
-
-# Vanilla varient
-VANILLA_BUILD := true
-
 # Inherit from rolex device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
