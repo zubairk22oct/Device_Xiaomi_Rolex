@@ -87,6 +87,9 @@ ro.vendor.iocgrp.config=1
 persist.vendor.qcom.bluetooth.enable.splita2dp=false
 vendor.qcom.bluetooth.soc=smd
 
+# Blur
+persist.sys.sf.disable_blurs=1
+
 # DRM
 drm.service.enabled=true
 
