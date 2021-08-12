@@ -47,6 +47,6 @@ TARGET_VENDOR_PRODUCT_NAME := rolex
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="rolex" \
     PRODUCT_NAME="rolex" \
-    PRIVATE_BUILD_DESC="redfin-user 11/RQ3A.210705.001/7380771:user/release-keys"
+    PRIVATE_BUILD_DESC="redfin-user 11/RQ3A.210805.001.A1/7474174:user/release-keys"
 
-BUILD_FINGERPRINT := google/redfin/redfin:11/RQ3A.210705.001/7380771:user/release-keys
+BUILD_FINGERPRINT := google/redfin/redfin:11/RQ3A.210805.001.A1/7474174:user/release-keys
