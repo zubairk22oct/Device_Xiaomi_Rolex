@@ -124,8 +124,8 @@ persist.device_config.runtime_native.usap_pool_enabled=true
 
 # PixelPlusUI Official
 PRODUCT_PROPERTY_OVERRIDES += \
-ro.ppui.device_name=Redmi4a/Redmi5a
-ro.ppui.version=3.8
-ro.ppui.version_code=Hikaru
+ro.ppui.device_name=Redmi 4a/Redmi 5a
+ro.ppui.version=3.9
+ro.ppui.version_code=Eternal
 ro.ppui.is_official=true
-ro.ppui.maintainer_name=ZubairKhan
+ro.ppui.maintainer_name=Zubair Khan

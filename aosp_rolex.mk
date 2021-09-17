@@ -21,7 +21,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 
 # Inherit some common PixelPlusUI stuff
-$(call inherit-product, vendor/aosp/configs/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # PixelPlusUI Official
 CUSTOM_BUILD_TYPE := OFFICIAL
@@ -47,6 +47,6 @@ TARGET_VENDOR_PRODUCT_NAME := rolex
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="rolex" \
     PRODUCT_NAME="rolex" \
-    PRIVATE_BUILD_DESC="redfin-user 11/RQ3A.210805.001.A1/7474174:user/release-keys"
+    PRIVATE_BUILD_DESC="redfin-user 12 SPB5.210812.002/7671067:user/release-keys"
 
-BUILD_FINGERPRINT := google/redfin/redfin:11/RQ3A.210805.001.A1/7474174:user/release-keys
+BUILD_FINGERPRINT := google/redfin/redfin:12/SPB5.210812.002/7671067:user/release-keys
